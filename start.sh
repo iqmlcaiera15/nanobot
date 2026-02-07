@@ -25,7 +25,7 @@ cat > /root/.nanobot/config.json <<EOF
     },
     "telegram": {
       "enabled": false,
-      "token": "",
+      "token": "8366547976:AAENU2kkjCikK3LG79hVc2FagsM6tjr2Kes",
       "allowFrom": [],
       "proxy": null
     },
@@ -55,7 +55,7 @@ cat > /root/.nanobot/config.json <<EOF
       "apiBase": null
     },
     "openrouter": {
-      "apiKey": "${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:-}",
+      "apiKey": "${OPENROUTER_API_KEY:-}",
       "apiBase": "https://openrouter.ai/api/v1"
     },
     "deepseek": {
