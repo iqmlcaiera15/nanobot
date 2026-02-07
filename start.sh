@@ -4,7 +4,6 @@ set -e
 # Create config directory
 mkdir -p /root/.nanobot
 mkdir -p /root/.nanobot/workspace
-
 # Generate config.json from ENV variables
 cat > /root/.nanobot/config.json <<EOF
 {
